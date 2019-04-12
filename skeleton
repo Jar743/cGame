@@ -9,7 +9,7 @@ void Setup()
 }
 void Draw()
 {
-
+    
 }
 void Input()
 {
@@ -24,8 +24,10 @@ int main()
 
   Setup ();
   while (!gameOver)
-
-
+  {
+    Draw();
+    Input();
+    Logic();
 
 
 return 0;
